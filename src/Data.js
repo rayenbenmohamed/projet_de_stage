@@ -1,0 +1,86 @@
+const DATA = [
+    {
+        id : 0,
+        title : " pc",
+        price : 2000,
+        desc : "...",
+        img : "/img/téléchargement.jpg",
+        category: "pc",
+    },
+    {
+        id : 1,
+        title : " mackbook",
+        price : 1000,
+        desc : ".",
+        img : "/img/pc2.jpg",
+        category: "pc",
+    },
+    {
+        id : 2,
+        title : "mackbook",
+        price : 2000,
+        desc : ".",
+        img : "/img/pc4.jpg",
+        category: "pc",
+    },
+    {
+        id : 3,
+        title : "iphone11",
+        price : 1000,
+        desc : ".",
+        img : "/img/iphone-11.jpg",
+        category: "phone",
+    },
+    {
+        id : 4,
+        title : "iphone12",
+        price : 1500,
+        desc : ".",
+        img : "/img/iphone-12.jpg",
+        category: "phone",
+    },
+    {
+        id : 5,
+        title : "iphone14",
+        price : 1800,
+        desc : ".",
+        img : "/img/iphone14.png",
+        category: "phone",
+    },
+    {
+        id : 6,
+        title : "airpods1",
+        price : 50,
+        desc : ".",
+        img : "/img/kit.jpg",
+        category: "kit",
+    },
+    {
+        id : 7,
+        title : "airpods2",
+        price : 100,
+        desc : ".",
+        img : "/img/kit4.jpg",
+        category: "kit",
+    },
+    {
+        id : 8,
+        title : "airpods3",
+        price : 150,
+        desc : ".",
+        img : "/img/kit2.jpg",
+        category: "kit",
+    },
+    {
+        id : 9,
+        title : " apple watch",
+        price : 200,
+        desc : ".",
+        img : "/img/Applewtch.jpg",
+        category: "watch-smart",
+    },
+   
+  
+
+]
+    export default DATA;

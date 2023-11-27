@@ -1,0 +1,178 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "mackbook",
+      "price": 1020,
+      "desc": ".",
+      "img": "/img/pc2.jpg",
+      "category": "pc"
+    },
+    {
+      "id": 2,
+      "title": "mackbook",
+      "price": 2000,
+      "desc": ".",
+      "img": "/img/pc4.jpg",
+      "category": "pc"
+    },
+    {
+      "id": 3,
+      "title": "iphone11",
+      "price": 1000,
+      "desc": ".",
+      "img": "/img/iphone-11.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 4,
+      "title": "iphone12",
+      "price": 1500,
+      "desc": ".",
+      "img": "/img/iphone-12.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 5,
+      "title": "iphone14",
+      "price": 1800,
+      "desc": ".",
+      "img": "/img/iphone14.png",
+      "category": "phone"
+    },
+    {
+      "id": 6,
+      "title": "airpods1",
+      "price": 50,
+      "desc": ".",
+      "img": "/img/kit.jpg",
+      "category": "kit"
+    },
+    {
+      "id": 7,
+      "title": "airpods2",
+      "price": 100,
+      "desc": ".",
+      "img": "/img/kit4.jpg",
+      "category": "kit"
+    },
+    {
+      "id": 8,
+      "title": "airpods3",
+      "price": 150,
+      "desc": ".",
+      "img": "/img/kit2.jpg",
+      "category": "kit"
+    },
+    {
+      "id": 9,
+      "title": "apple watch",
+      "price": 200,
+      "desc": ".",
+      "img": "/img/Applewtch.jpg",
+      "category": "watch-smart"
+    },
+    {
+      "title": "pc gamer",
+      "price": 3020,
+      "desc": "good pc 3000 ram RTV 5876 6877BB ROM",
+      "img": "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AK59J8/48737bbf22a14225955295fea99a1827.jpeg/f/fierce-exile-gaming-pc-desktop-computer.jpeg",
+      "category": "pc",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "username": "rayenlam123@gmail.com",
+      "password": "rayen2002",
+      "id": 2
+    },
+    {
+      "username": "rayen@gmail.com",
+      "password": "rayen2002",
+      "id": 3
+    },
+    {
+      "username": "salah@gmail.com",
+      "password": "rayen2002",
+      "id": 4
+    },
+    {
+      "username": "salah@gmail.com",
+      "password": "rayen2002",
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "items": [
+        {
+          "id": 1,
+          "title": "mackbook",
+          "price": 1020,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "title": "iphone11",
+          "price": 1000,
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "title": "airpods1",
+          "price": 50,
+          "quantity": 3
+        }
+      ],
+      "total": 3180,
+      "billingAddress": {
+        "firstName": "Rayen",
+        "lastName": "Lam",
+        "username": "rayenlam123@gmail.com",
+        "email": "rayenlam123@gmail.com",
+        "address": "123 Main St",
+        "address2": "Apt 4",
+        "country": "TUNISIA",
+        "state": "Tunis"
+      },
+      "payment": {
+        "method": "credit",
+        "ccName": "Rayen Lam",
+        "ccNumber": "**** **** **** 1234",
+        "ccExpiration": "12/24",
+        "ccCvv": "123"
+      }
+    },
+    {
+      "userId": "4",
+      "items": [],
+      "total": 0,
+      "billingAddress": {
+        "firstName": "rayen",
+        "lastName": "med",
+        "username": "rayenmohamed",
+        "email": "rayenlam123@gmail.com",
+        "address": "jjsjsjsj",
+        "address2": "ruee hhss",
+        "country": "TUNISIA",
+        "state": "Tunis"
+      },
+      "payment": {
+        "method": "credit",
+        "ccName": "jjj",
+        "ccNumber": "sss",
+        "ccExpiration": "ss",
+        "ccCvv": "ss"
+      },
+      "id": 2
+    }
+  ]
+}
